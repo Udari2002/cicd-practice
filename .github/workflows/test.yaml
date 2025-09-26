@@ -15,5 +15,7 @@ jobs:
       - name: list all the files
       
       - name: list all the files with details
-         run: ls
+        run: ls
 
+      -name:Run the test
+       run:/gradlew test --scan
