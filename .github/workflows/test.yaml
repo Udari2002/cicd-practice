@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World
-        run: echo "Lecture CICD"
+        run: echo "Lecture CI/CD"
       - name: Get the present working directory
         run: pwd
       
