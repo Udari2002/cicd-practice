@@ -10,7 +10,10 @@ jobs:
         run: echo "Lecture CI/CD"
       - name: Get the present working directory
         run: pwd
+
       
       - name: list all the files
-        run: ls
+      
+      - name: list all the files with details
+         run: ls
 
